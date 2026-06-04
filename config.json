@@ -1,0 +1,20 @@
+{
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{ "id": "1fce4df2-2b8a-420e-9e41-3f3d0d4481d2", "flow": "xtls-rprx-vision" }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "tcp",
+      "security": "reality",
+      "realitySettings": {
+        "show": false,
+        "dest": "dl.google.com:443",
+        "serverNames": ["dl.google.com"]
+      }
+    }
+  }],
+  "outbounds": [{ "protocol": "freedom" }]
+}
